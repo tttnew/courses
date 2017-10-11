@@ -64,18 +64,18 @@ export const clearUserData = () => {
   };
 };
 
-// const urls = {
-//   fetch: `http://www.courses.dev/userdata`,
-//   add: `http://www.courses.dev/adduserdata`,
-//   delete: `http://www.courses.dev/deleteuserdata`,
-//   save: `http://www.courses.dev/savedata`
-// };
 const urls = {
-  fetch: `/userdata`,
-  add: `/adduserdata`,
-  delete: `/deleteuserdata`,
-  save: `/savedata`
+  fetch: `http://www.courses.dev/userdata`,
+  add: `http://www.courses.dev/adduserdata`,
+  delete: `http://www.courses.dev/deleteuserdata`,
+  save: `http://www.courses.dev/savedata`
 };
+// const urls = {
+//   fetch: `/userdata`,
+//   add: `/adduserdata`,
+//   delete: `/deleteuserdata`,
+//   save: `/savedata`
+// };
 
 const getHeaders = () => {
   let jwt = sessionStorage.getItem("jwt");

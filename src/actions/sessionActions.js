@@ -3,16 +3,16 @@ import fetch from "isomorphic-fetch";
 import { clearUserData } from "./userdataActions";
 import authApi from "../api/authApi";
 
-// const urls = {
-//   login: "http://www.courses.dev/signin",
-//   registration: "http://www.courses.dev/signup",
-//   testAuth: "http://www.courses.dev/getuser",
-// };
 const urls = {
-  login: "/signin",
-  registration: "/signup",
-  testAuth: "/getuser",
+  login: "http://www.courses.dev/signin",
+  registration: "http://www.courses.dev/signup",
+  testAuth: "http://www.courses.dev/getuser",
 };
+// const urls = {
+//   login: "/signin",
+//   registration: "/signup",
+//   testAuth: "/getuser",
+// };
 
 export function loginSuccess() {
   return {

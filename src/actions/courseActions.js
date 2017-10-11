@@ -26,12 +26,12 @@ export const refreshCourses = () => {
   return { type: types.REFRESH_COURSES };
 };
 
-// const urls = {
-//   fetch: `http://www.courses.dev/courses`
-// };
 const urls = {
-  fetch: `/courses`
+  fetch: `http://www.courses.dev/courses`
 };
+// const urls = {
+//   fetch: `/courses`
+// };
 
 export const fetchCourses = () => {
   return function(dispatch) {
