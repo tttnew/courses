@@ -1,0 +1,35 @@
+.courseBlock {
+  border-width: 2px 2px 0;
+  border-color: #FFC66C;
+  border-style:solid;
+  font-family:sans-serif
+
+}
+.courseBlock .title{
+  background-color: #FFC66C;
+  border-bottom: 5px solid #DBA247;
+  text-align: center;
+  padding: 10px 0;
+  color:white;
+  font-size:1.5em
+}
+.courseBlock .description{
+  text-align: justify;
+  padding: 10px;
+}
+.courseBlock .favorites {
+  border-top: 2px dotted #DCDCDC;
+  text-align: center;
+  border-bottom: 5px solid #DBA247;
+}
+.courseBlock .time {
+  border-top: 2px dotted #DCDCDC;
+  text-align: center;
+  padding: 10px;
+}
+.courseBlock .favoritesButton{
+  width:50%;
+  margin:10px auto;
+  padding: 5px;
+  color:white;
+}

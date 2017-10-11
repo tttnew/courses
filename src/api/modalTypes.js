@@ -1,0 +1,2 @@
+export const DELETE_USER_DATA = 'MODAL_DELETE_USER_DATA';
+export const ADD_USER_DATA = 'MODAL_ADD_USER_DATA';
