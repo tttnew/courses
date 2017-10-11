@@ -1,6 +1,7 @@
 import authApi from "../api/authApi";
+import { KEY_FAVORITES } from "../api/storageConstants";
 
-const favorites = JSON.parse(localStorage.getItem("favorites"));
+const favorites = JSON.parse(localStorage.getItem(KEY_FAVORITES));
 export default {
   course: {
     isFetching: false,
